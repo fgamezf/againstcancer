@@ -1,0 +1,116 @@
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  padding:20px;
+}
+
+
+.sponsor {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  padding:20px;
+}
+
+.header h1 {
+  font-size: 1.2em;
+}
+
+.intro {
+  text-align: center;
+  color: black;
+  margin-top: 18px;
+  font-size: 16px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.notes {
+  text-align: left;
+  color: black;
+  margin-top: 12px;
+  font-size:14px;
+}
+
+
+input, select {
+  width: 100%;
+}
+
+.copyright {
+  padding:20px;
+  font-size: 16px;
+  color: black;
+}
+
+.link {
+  font-size: 0.8em;
+  margin: 0;
+  padding: 2px;
+}
+
+.balance {
+  text-align: center;
+  padding: 40px;
+  border: 1px dotted gray;
+  margin: 10px 0px;
+  background-color: #eee;
+}
+
+.balance h1 {
+  font-size: 20px;
+  color: gray;
+}
+
+.balance h2 {
+  font-size: 80px;
+  color: black;
+}
+
+.carousel h3 {
+  font-size: 16px;
+}
+
+.carousel h2 {
+  font-size: 20px;
+}
+
+.carousel h1 {
+  font-size: 56px;
+}
+
+.carousel p {
+  font-size: 28px;
+}
+
+@media screen and (max-width: 600px) {
+  .balance h1 {
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .balance h2 {
+    font-size: 56px;
+    color: black;
+  }
+  
+  .carousel h3 {
+    font-size: 12px;
+  }
+  
+  .carousel h2 {
+    font-size: 16px;
+  }
+  
+  .carousel h1 {
+    font-size: 42px;
+  }
+  
+  .carousel p {
+    font-size: 24px;
+  }
+}
